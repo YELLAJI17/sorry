@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I'm Sorry</title>
+    <link rel="stylesheet" href="sorry.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>I'm Sorry, Akki The Smart</h1>
+
+      <div class="gallery">
+        <img src="memory1.jpeg" alt="Memory 1" />
+        <img src="memory2.jpeg" alt="Memory 2" />
+        <img src="memory3.jpeg" alt="Memory 3" />
+      </div>
+
+      <div class="button-container">
+        <button onclick="showMessage('message1')">First-uuu</button>
+        <button onclick="showMessage('message2')">Next Entante</button>
+        <button onclick="showMessage('message3')">Nenu....</button>
+        <button onclick="showMessage('message4')">Last dhi</button>
+      </div>
+
+      <p id="message1" class="hidden">Sorrrrrrrryyyyyy Akkiiii ❤️❤️❤️</p>
+      <p id="message2" class="hidden">
+        Etaindhi antey compare chedhaam ani kaadhu, logic matladadhaam ani
+        kaadhu. Neeku nachanadhi nuvve chesthunnav ani cheppataaniki try
+        chesaaanu.
+      </p>
+      <p id="message3" class="hidden">
+        Ala chedhaam anukoni start chedhaam anukunna, inka nuvvu aa kopam lo
+        unnaav kadha neeku cheppina ardham cheskolevemo anukoni cheppaledhu.
+      </p>
+      <p id="message4" class="hidden">
+        Nuvvu Chinni Bangaru thalliva? Pedha Bangaru Thalliva?
+      </p>
+
+      <!-- Additional "Will You Forgive Me?" Button and Response -->
+      <button onclick="showForgiveness()">Will You Forgive Me?</button>
+      <p id="response" class="hidden">
+        Ah Ok Ok Thank you for forgiving me, Akki. I’m so grateful for you. ❤️.
+        Salam Waleikum
+      </p>
+      <button onclick="redirectToWhatsApp()">Navvuthu Oka Message pampi</button>
+    </div>
+
+    <script src="sorry.js"></script>
+  </body>
+</html>
